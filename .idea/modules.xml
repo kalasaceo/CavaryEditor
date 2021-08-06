@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GatsbyEditor.iml" filepath="$PROJECT_DIR$/.idea/modules/GatsbyEditor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SSffmpegVideoOperation/GatsbyEditor.SSffmpegVideoOperation.iml" filepath="$PROJECT_DIR$/.idea/modules/SSffmpegVideoOperation/GatsbyEditor.SSffmpegVideoOperation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/camerarecorder/GatsbyEditor.camerarecorder.iml" filepath="$PROJECT_DIR$/.idea/modules/camerarecorder/GatsbyEditor.camerarecorder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sample/GatsbyEditor.sample.iml" filepath="$PROJECT_DIR$/.idea/modules/sample/GatsbyEditor.sample.iml" />
+    </modules>
+  </component>
+</project>

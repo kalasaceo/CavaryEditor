@@ -1,0 +1,288 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.daasuu.camerarecorder_androidtesttest"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\asus\Desktop\GatsbyEditor\sample\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\asus\Desktop\GatsbyEditor\sample\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+11-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-71
+11-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-68
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-80
+12-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-77
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
+13-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-79
+14-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-76
+15
+16    <uses-feature android:name="android.hardware.camera" />
+16-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-60
+16-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:19-57
+17    <uses-feature android:name="android.hardware.camera.autofocus" />
+17-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-70
+17-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:19-67
+18
+19    <uses-permission android:name="android.permission.CAMERA" />
+19-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-65
+19-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:22-62
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-81
+20-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:22-78
+21    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+21-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-71
+21-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-68
+22
+23    <application
+23-->C:\Users\asus\Desktop\GatsbyEditor\sample\src\main\AndroidManifest.xml:4:5-19:19
+24        android:allowBackup="true"
+24-->C:\Users\asus\Desktop\GatsbyEditor\sample\src\main\AndroidManifest.xml:5:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.5.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\4bb29b9c262fa68828503263a9ce87f5\core-1.5.0\AndroidManifest.xml:24:18-86
+26        android:debuggable="true"
+27        android:extractNativeLibs="false"
+28        android:icon="@mipmap/ic_launcher"
+28-->C:\Users\asus\Desktop\GatsbyEditor\sample\src\main\AndroidManifest.xml:6:9-43
+29        android:label="@string/app_name"
+29-->C:\Users\asus\Desktop\GatsbyEditor\sample\src\main\AndroidManifest.xml:7:9-41
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->C:\Users\asus\Desktop\GatsbyEditor\sample\src\main\AndroidManifest.xml:8:9-54
+31        android:supportsRtl="true"
+31-->C:\Users\asus\Desktop\GatsbyEditor\sample\src\main\AndroidManifest.xml:9:9-35
+32        android:theme="@style/AppTheme" >
+32-->C:\Users\asus\Desktop\GatsbyEditor\sample\src\main\AndroidManifest.xml:10:9-40
+33        <activity
+33-->C:\Users\asus\Desktop\GatsbyEditor\sample\src\main\AndroidManifest.xml:11:9-18:20
+34            android:name="com.daasuu.sample.MainActivity"
+34-->C:\Users\asus\Desktop\GatsbyEditor\sample\src\main\AndroidManifest.xml:12:13-58
+35            android:screenOrientation="portrait" >
+35-->C:\Users\asus\Desktop\GatsbyEditor\sample\src\main\AndroidManifest.xml:13:13-49
+36            <intent-filter>
+36-->C:\Users\asus\Desktop\GatsbyEditor\sample\src\main\AndroidManifest.xml:14:13-17:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\asus\Desktop\GatsbyEditor\sample\src\main\AndroidManifest.xml:15:17-69
+37-->C:\Users\asus\Desktop\GatsbyEditor\sample\src\main\AndroidManifest.xml:15:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\asus\Desktop\GatsbyEditor\sample\src\main\AndroidManifest.xml:16:17-77
+39-->C:\Users\asus\Desktop\GatsbyEditor\sample\src\main\AndroidManifest.xml:16:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:9-28:52
+43            android:name="com.daasuu.camerarecorder.VideoProcessActivity"
+43-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-74
+44            android:screenOrientation="portrait" />
+44-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-49
+45        <activity
+45-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:9-31:52
+46            android:name="com.daasuu.camerarecorder.BaseCameraActivity"
+46-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-72
+47            android:screenOrientation="portrait" />
+47-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-49
+48        <activity
+48-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:9-35:65
+49            android:name="com.daasuu.camerarecorder.FastAndSlowVideoMotionActivity"
+49-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:13-84
+50            android:screenOrientation="portrait"
+50-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:13-49
+51            android:theme="@style/Theme.AppCompat.SelfLucent" />
+51-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:13-62
+52        <activity
+52-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:9-38:52
+53            android:name="com.daasuu.camerarecorder.CombineImagesActivity"
+53-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:13-75
+54            android:screenOrientation="portrait" />
+54-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:13-49
+55        <activity
+55-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:9-41:52
+56            android:name="com.daasuu.camerarecorder.ExtractAudioActivity"
+56-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-74
+57            android:screenOrientation="portrait" />
+57-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-49
+58        <activity
+58-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:9-45:66
+59            android:name="com.daasuu.camerarecorder.ShowUpdateActivity"
+59-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:13-72
+60            android:screenOrientation="portrait"
+60-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:13-49
+61            android:theme="@style/Theme.AppCompat.Transaprent" />
+61-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-63
+62        <activity
+62-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:9-49:65
+63            android:name="com.daasuu.camerarecorder.AddTextOnVideoActivity"
+63-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:13-76
+64            android:screenOrientation="portrait"
+64-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:13-49
+65            android:theme="@style/Theme.AppCompat.SelfLucent" />
+65-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:13-62
+66        <activity
+66-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:9-53:65
+67            android:name="com.daasuu.camerarecorder.ReverseVideoActivity"
+67-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:13-74
+68            android:screenOrientation="portrait"
+68-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:52:13-49
+69            android:theme="@style/Theme.AppCompat.SelfLucent" />
+69-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:13-62
+70        <activity
+70-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:9-56:52
+71            android:name="com.daasuu.camerarecorder.MergeImageAndMP3Activity"
+71-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:55:13-78
+72            android:screenOrientation="portrait" />
+72-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:13-49
+73        <activity
+73-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:57:9-60:66
+74            android:name="com.daasuu.camerarecorder.LikeActivity"
+74-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:13-66
+75            android:screenOrientation="portrait"
+75-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:59:13-49
+76            android:theme="@style/Theme.AppCompat.Transaprent" />
+76-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:13-63
+77        <activity
+77-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:61:9-64:65
+78            android:name="com.daasuu.camerarecorder.AddWaterMarkOnVideoActivity"
+78-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:62:13-81
+79            android:screenOrientation="portrait"
+79-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:13-49
+80            android:theme="@style/Theme.AppCompat.SelfLucent" />
+80-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:64:13-62
+81        <activity
+81-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:9-68:65
+82            android:name="com.daasuu.camerarecorder.SpeechManipulatorActivity"
+82-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:66:13-79
+83            android:screenOrientation="portrait"
+83-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:67:13-49
+84            android:theme="@style/Theme.AppCompat.SelfLucent" />
+84-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:68:13-62
+85        <activity
+85-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:69:9-71:52
+86            android:name="com.daasuu.camerarecorder.CombineVideosActivity"
+86-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:13-75
+87            android:screenOrientation="portrait" />
+87-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:71:13-49
+88        <activity
+88-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:72:9-74:52
+89            android:name="com.daasuu.camerarecorder.IntroActivity"
+89-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:73:13-67
+90            android:screenOrientation="portrait" />
+90-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:13-49
+91        <activity
+91-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:75:9-77:52
+92            android:name="com.daasuu.camerarecorder.CombineImageAndVideoActivity"
+92-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:76:13-82
+93            android:screenOrientation="portrait" />
+93-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:13-49
+94        <activity
+94-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:78:9-81:65
+95            android:name="com.daasuu.camerarecorder.MergeAudioVideoActivity"
+95-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:79:13-77
+96            android:screenOrientation="portrait"
+96-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:80:13-49
+97            android:theme="@style/Theme.AppCompat.SelfLucent" />
+97-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:81:13-62
+98        <activity
+98-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:82:9-84:52
+99            android:name="com.daasuu.camerarecorder.RemoveAudioFromVideoActivity"
+99-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:83:13-82
+100            android:screenOrientation="portrait" />
+100-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:84:13-49
+101        <activity
+101-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:85:9-87:52
+102            android:name="com.daasuu.camerarecorder.ImageToVideoConvertActivity"
+102-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:86:13-81
+103            android:screenOrientation="portrait" />
+103-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:87:13-49
+104        <activity
+104-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:88:9-90:52
+105            android:name="com.daasuu.camerarecorder.VideoRotateFlipActivity"
+105-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:89:13-77
+106            android:screenOrientation="portrait" />
+106-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:90:13-49
+107        <activity
+107-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:91:9-93:52
+108            android:name="com.daasuu.camerarecorder.CutVideoUsingTimeActivity"
+108-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:92:13-79
+109            android:screenOrientation="portrait" />
+109-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:93:13-49
+110        <activity
+110-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:94:9-96:52
+111            android:name="com.daasuu.camerarecorder.VideoToGifActivity"
+111-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:95:13-72
+112            android:screenOrientation="portrait" />
+112-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:96:13-49
+113        <activity
+113-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:97:9-99:52
+114            android:name="com.daasuu.camerarecorder.OptionsList"
+114-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:98:13-65
+115            android:screenOrientation="portrait" />
+115-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:99:13-49
+116        <activity
+116-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:100:9-102:52
+117            android:name="com.daasuu.camerarecorder.TrimMainActivity"
+117-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:101:13-70
+118            android:screenOrientation="portrait" />
+118-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:102:13-49
+119        <activity
+119-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:103:9-105:52
+120            android:name="com.daasuu.camerarecorder.TrimmerActivity"
+120-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:104:13-69
+121            android:screenOrientation="portrait" />
+121-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:105:13-49
+122        <activity
+122-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:106:9-108:52
+123            android:name="com.daasuu.camerarecorder.VoiceRecorderActivity"
+123-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:107:13-75
+124            android:screenOrientation="portrait" />
+124-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:108:13-49
+125
+126        <meta-data
+126-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:110:9-112:57
+127            android:name="preloaded_fonts"
+127-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:111:13-43
+128            android:resource="@array/preloaded_fonts" />
+128-->[:camerarecorder] C:\Users\asus\Desktop\GatsbyEditor\camerarecorder\build\intermediates\library_manifest\debug\AndroidManifest.xml:112:13-54
+129
+130        <provider
+130-->[com.github.jaiselrahman:FilePicker:1.3.2] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b4716b6311b47bf1fc9fe3bb747f906a\jetified-FilePicker-1.3.2\AndroidManifest.xml:14:9-22:20
+131            android:name="com.jaiselrahman.filepicker.utils.FilePickerProvider"
+131-->[com.github.jaiselrahman:FilePicker:1.3.2] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b4716b6311b47bf1fc9fe3bb747f906a\jetified-FilePicker-1.3.2\AndroidManifest.xml:15:13-80
+132            android:authorities="com.daasuu.camerarecorder_androidtesttest.filepicker.provider"
+132-->[com.github.jaiselrahman:FilePicker:1.3.2] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b4716b6311b47bf1fc9fe3bb747f906a\jetified-FilePicker-1.3.2\AndroidManifest.xml:16:13-71
+133            android:exported="false"
+133-->[com.github.jaiselrahman:FilePicker:1.3.2] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b4716b6311b47bf1fc9fe3bb747f906a\jetified-FilePicker-1.3.2\AndroidManifest.xml:17:13-37
+134            android:grantUriPermissions="true" >
+134-->[com.github.jaiselrahman:FilePicker:1.3.2] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b4716b6311b47bf1fc9fe3bb747f906a\jetified-FilePicker-1.3.2\AndroidManifest.xml:18:13-47
+135            <meta-data
+135-->[com.github.jaiselrahman:FilePicker:1.3.2] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b4716b6311b47bf1fc9fe3bb747f906a\jetified-FilePicker-1.3.2\AndroidManifest.xml:19:13-21:86
+136                android:name="android.support.FILE_PROVIDER_PATHS"
+136-->[com.github.jaiselrahman:FilePicker:1.3.2] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b4716b6311b47bf1fc9fe3bb747f906a\jetified-FilePicker-1.3.2\AndroidManifest.xml:20:17-67
+137                android:resource="@xml/com_jaiselrahman_filepicker_provider_paths" />
+137-->[com.github.jaiselrahman:FilePicker:1.3.2] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b4716b6311b47bf1fc9fe3bb747f906a\jetified-FilePicker-1.3.2\AndroidManifest.xml:21:17-83
+138        </provider>
+139
+140        <activity
+140-->[com.github.jaiselrahman:FilePicker:1.3.2] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b4716b6311b47bf1fc9fe3bb747f906a\jetified-FilePicker-1.3.2\AndroidManifest.xml:24:9-26:59
+141            android:name="com.jaiselrahman.filepicker.activity.FilePickerActivity"
+141-->[com.github.jaiselrahman:FilePicker:1.3.2] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b4716b6311b47bf1fc9fe3bb747f906a\jetified-FilePicker-1.3.2\AndroidManifest.xml:25:13-83
+142            android:theme="@style/AppTheme.NoActionBar" />
+142-->[com.github.jaiselrahman:FilePicker:1.3.2] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\b4716b6311b47bf1fc9fe3bb747f906a\jetified-FilePicker-1.3.2\AndroidManifest.xml:26:13-56
+143        <activity
+143-->[pub.devrel:easypermissions:3.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\d539f80ca3c67a41dfa0c821341499df\jetified-easypermissions-3.0.0\AndroidManifest.xml:12:9-16:66
+144            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+144-->[pub.devrel:easypermissions:3.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\d539f80ca3c67a41dfa0c821341499df\jetified-easypermissions-3.0.0\AndroidManifest.xml:13:13-86
+145            android:exported="false"
+145-->[pub.devrel:easypermissions:3.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\d539f80ca3c67a41dfa0c821341499df\jetified-easypermissions-3.0.0\AndroidManifest.xml:14:13-37
+146            android:label=""
+146-->[pub.devrel:easypermissions:3.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\d539f80ca3c67a41dfa0c821341499df\jetified-easypermissions-3.0.0\AndroidManifest.xml:15:13-29
+147            android:theme="@style/EasyPermissions.Transparent" />
+147-->[pub.devrel:easypermissions:3.0.0] C:\Users\asus\.gradle\caches\transforms-2\files-2.1\d539f80ca3c67a41dfa0c821341499df\jetified-easypermissions-3.0.0\AndroidManifest.xml:16:13-63
+148    </application>
+149
+150</manifest>
